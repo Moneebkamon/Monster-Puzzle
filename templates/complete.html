@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <link href="/static/styles.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>THE GREATEST GAME!</title>
+    </head>
+    <body>
+        <header>
+            <div class= "header">
+                <h1>Congratulations!</h1>
+            </div>
+            <a class= "logout" href="/logout">Logout</a>
+        </header>
+            <main>
+                <form action="/complete" method="POST">
+                    <P>
+                        <h2 class="q" >You have completed the game successfuly</h2>
+                    </P>
+                    <P>
+                        <button class="check"type= "submit">Restart?</button>
+                    </P>
+                </form>
+            </main>
+            <footer class="copyright">
+                <p>&copy;2024Kgames</p>
+            </footer>
+    </body>
