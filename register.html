@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <link href="/static/styles.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>THE GREATEST GAME!</title>
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>THE GREATEST GAME!</h1>
+        </div>
+        <p>
+            <div class="container">
+                <div class="curved-shape"></div>
+                <div class="form-box register">
+                    <form action ="/register"method="POST">
+                        <div class="box">
+                            <h2>Registeration</h2>
+                            <div class= "input-box">
+                                <input type="text" name="username" class="username" required>
+                                <label class="lable" for="username" >Username</label>
+                                <i class='bx bxs-user'></i>
+                            </div>
+                            <div class= "input-box">
+                                <input type="password" name="password" class="password" required>
+                                <label class="lable" for="password" >Password</label>
+                            </div>
+                            <div class= "input-box">
+                                <input type="password" name="confirmation" class="password" required>
+                                <label class="lable" for="password" >Confirm Password</label>
+                            </div>
+                            <div class= "input-box">
+                                <button type="submit" name="registerb">Create Acount</button>
+                            </div>
+                            <div class= "rig-link" >
+                                <p>Have an account? <a href="/login" class ="singup-link">Sing In</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="info Login" >
+                    <h2>WELCOM!</h2>
+                    <P>Let's start your journey in solving mysterious pozzles, are you ready?</P>
+                </div>
+            </div>
+        </p>
+        <footer class="copyright">&copy;2024Kgames</footer>
+    </body>

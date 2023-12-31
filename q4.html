@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <link href="/static/styles.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>THE GREATEST GAME!</title>
+    </head>
+    <body>
+        <header>
+            <div class= "header">
+                <h1>THE GREATEST GAME</h1>
+            </div>
+            <a class= "logout" href="/logout">Logout</a>
+        </header>
+            <main>
+                <form action="/q4" method="POST">
+                    <P>
+                        <h2 class="q" >Q4: David's parents have three sons: Snap, Crackle, and what's the name of the third son?
+                            1 word only
+                        </h2>
+                    </P>
+                    <div class= "input-box">
+                        <input type="text" name="answer" class="username" required placeholder="Answer here">
+                    </div>
+                    <P>
+                        <button class="check"type= "submit" name="start">check</button>
+                    </P>
+                </form>
+            </main>
+            <footer class="copyright">
+                <p>&copy;2024Kgames</p>
+            </footer>
+    </body>
